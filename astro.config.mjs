@@ -15,8 +15,6 @@ export default defineConfig({
 			wrap: true
 		}
 	},
-	output: 'static',
-	outDir: './docs',
 	integrations: [
 		mdx({
 			syntaxHighlight: 'shiki',
